@@ -1,8 +1,8 @@
 module.exports = {
-  profile: '', // load your AWS credentials from a custom profile
+  profile: 'SolemnLupine', // load your AWS credentials from a custom profile
   region: 'us-west-2', //the region of your Lambda function
   handler: 'index.handler', //the name of the handler function: index because the main file is index.js
-  role: 'arn:aws:iam::YOURACCOUNTHERE:role/lambda_basic_execution', // the Lambda role
+  role: 'arn:aws:iam::SolemnLupine:role/lambda_basic_execution', // the Lambda role
   functionName: '', //name
   timeout: 10,
   memorySize: 128,
